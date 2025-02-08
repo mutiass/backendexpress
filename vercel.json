@@ -11,5 +11,9 @@
       "src": "/api/(.*)",
       "dest": "server.js"
     }
-  ]
+  ],
+  "env": {
+    "MONGODB_URI": "@MONGODB_URI",
+    "PORT": "@PORT"
+  }
 }
